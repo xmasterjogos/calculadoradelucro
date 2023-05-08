@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+label {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-style: italic;
+}
+  
+input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.2);
+    font-style: italic;
+}
+  
+button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-style: italic;
+}
+
+
+.secao1 {
+    margin-top: 8px;
+    border-top: 3px solid;
+    text-align: center;
+    font-style: italic;
+}
+
+.secao3 {
+    text-align: center;
+    font-style: italic;
+}
+.secao2 {
+    border: 2px solid;
+}
+
+body {
+    background-color: rgb(37, 158, 152);
+}
